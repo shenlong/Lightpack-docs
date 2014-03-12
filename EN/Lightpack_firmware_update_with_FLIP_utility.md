@@ -13,7 +13,7 @@ For firmware update on Windows or Linux machine, do the following:
 
 1. Download [latest FLIP version] (http://www.atmel.com/tools/FLIP.aspx) from manufacturer website and install it 
 2. Connect your Lightpack to USB and press **"secret"** button (hole on front panel of device, near power socket). You OS will sound you about "new device found". It names **AT90USB162 DFU**
-3. Install driver for this new device from ```/Atmel/Flip/usb```
+3. Install driver for this new device from ```/Atmel/Flip/usb``` For Windows, do a manual install when the Add New Hardware wizard comes up. Point the path of driver in C:\Program Files (x86)\Atmel\Flip 3.4.7\usb\ 
 4. Run FLIP. Software interface consists of 3 blocks (see pic. below). All of them are named.
 5. In main menu choose **Device→Select**. Choose **AT90USB162** from the list
 6. In main menu choose **Settings→Communication→USB**. In the popup window press **Open**. As soon as connection is established, the left interface block (Operations Flow) will become active.
